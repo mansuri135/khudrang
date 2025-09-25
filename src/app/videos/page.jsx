@@ -1,18 +1,16 @@
 import Image from "next/image";
 import Navbar from '@/components/layout/Navbar';
 import HeroSlider from '@/components/slider/HeroSlider'
-import Event from '@/components/events/Event'
-import Video from '@/components/videos/Video'
+import Videos from '@/components/videos/Videos'
 import Footer from '@/components/layout/Footer'
 
-export default function Home() {
+export default function VideoMain() {
   return (
     <div>
       <Navbar />
       <HeroSlider />
       <main className="relative">
-        <Event />
-        <Video />
+        <Videos />
         <Image className="absolute hidden 2xl:block top-0 right-0 rotate-[-90deg]"
           src="/images/brush.jpg"
           alt="Logo"
