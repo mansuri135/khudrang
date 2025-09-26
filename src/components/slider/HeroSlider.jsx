@@ -10,14 +10,14 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 const slides = [
   {
     id: 1,
-    title: 'Slide 1',
-    description: 'This is slide one',
+    title: '',
+    description: '',
     bgImage: '/images/banner01.jpg', // your public folder image
   },
   {
     id: 2,
-    title: 'Slide 2',
-    description: 'This is slide two',
+    title: '',
+    description: '',
     bgImage: '/images/banner02.jpg',
   },
   
@@ -43,7 +43,7 @@ export default function HeroSlider() {
               style={{ backgroundImage: `url(${bgImage})` }}
             >
               {/* Overlay for better text readability */}
-              <div className="absolute inset-0 bg-black opacity-[0.2]"></div>
+              <div className="absolute inset-0 "></div>
               
               <div className="relative z-10 text-center px-4">
                 <h2 className="text-3xl font-bold mb-2">{title}</h2>

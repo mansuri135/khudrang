@@ -26,12 +26,10 @@ export default function Footer() {
                         <a href="https://www.facebook.com/BazmeUrdughazal/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                             <FaFacebookF />
                         </a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                        <a href="https://www.instagram.com/khudrang_foundation/?hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                             <FaInstagram />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-                            <FaTwitter />
-                        </a>
+                       
                     </div>
                 </div>
             </div>
