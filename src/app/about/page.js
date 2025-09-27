@@ -53,7 +53,6 @@ Sahib Ahmedabadi is also the founder and secretary of the Khudrang Foundation, a
           <p className="text-gray-500 mb-2">Director & Co-Founder</p>
           <p className="text-sm max-w-md mx-auto">
            Sufyan Sufi, a businessman from Vatva, Ahmedabad, originally hailing from Tonk, Rajasthan, is a rising star in the world of poetry. His debut book of ghazals, Pehla Ishq, was published in 2023, and in recognition of his literary contribution, he was honored with the prestigious Gujarat Sahitya Yuva Gaurav Puraskar by the Gujarat Sahitya Academy in 2025.
-
 Known for his evocative poetry, Sufyan’s work beautifully explores themes of emotion, love, and relationships. He has gained immense popularity among young poetry lovers, particularly for his unique style of reciting poetry. He has performed across various platforms, including open mics, nashidhs, and mushairas, capturing the hearts of audiences with his powerful words. One of his most famous lines, "Marne walon ko kya khabar Sufi, Jine walon pe kya gujarti hai," resonates deeply with poetry enthusiasts.
           </p>
         </div>
