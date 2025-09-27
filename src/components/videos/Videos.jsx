@@ -9,9 +9,9 @@ const videos = [
   },
   {
     id: 2,
-    title: 'Mangal Rathod Sahab - Mehfil e Mushayra',
+    title: 'Jugal Bandhi',
     date: 'Oct 15, 2025',
-    embedUrl: 'https://www.youtube.com/embed/uGyVGotVgwk?si=nZ2CdLQOSFPFkmLP',
+    embedUrl: 'https://www.youtube.com/embed/jscWcWMUdr4?si=N-RKu1no0zT7pw3c',
   },
   {
     id: 3,
@@ -27,9 +27,9 @@ const videos = [
   },
   {
     id: 5,
-    title: 'Mangal Rathod Sahab - Mehfil e Mushayra',
+    title: 'Jugal Bandhi',
     date: 'Oct 15, 2025',
-    embedUrl: 'https://www.youtube.com/embed/uGyVGotVgwk?si=nZ2CdLQOSFPFkmLP',
+    embedUrl: 'https://www.youtube.com/embed/jscWcWMUdr4?si=N-RKu1no0zT7pw3c',
   },
   {
     id: 6,

@@ -30,7 +30,7 @@ export default function Navbar() {
                     <div className="hidden md:flex flex-col gap-4 items-end">
                         {/* Contact Info */}
                         <div className="text-sm flex text-gray-600 gap-2 ml-6 pl-4">
-                            
+
                             <a href="mailto:khudrang.poet@gmail.com" className="flex items-center space-x-1 hover:text-[#da991b]">
                                 <FiMail />
                                 <span>khudrang.poet@gmail.com</span>
@@ -50,7 +50,7 @@ export default function Navbar() {
                             <Link href="/about" className="hover:text-[#da991b]">About Us</Link>
                             <Link href="/events" className="hover:text-[#da991b]">Events</Link>
                             <Link href="/videos" className="hover:text-[#da991b]">Videos</Link>
-                            <Link href="/contact" className="hover:text-[#da991b]">Contact Us</Link>
+                            <Link href="/photos" className="hover:text-[#da991b]">Photos</Link>
                         </div>
 
 
@@ -76,33 +76,27 @@ export default function Navbar() {
             {menuOpen && (
                 <div className="md:hidden bg-white border-t border-gray-200 px-4 py-4 space-y-4">
                     <div className="flex-col flex gap-6">
-                        <Link href="/" className="hover:text-[#da991b]">Home</Link>
-                        <Link href="/about" className="hover:text-[#da991b]">About Us</Link>
-                        <Link href="/event" className="hover:text-[#da991b]">Events</Link>
-                        <Link href="/video" className="hover:text-[#da991b]">Videos</Link>
-                        <Link href="/contact" className="hover:text-[#da991b]">Contact Us</Link>
+                         <Link href="/" className="hover:text-[#da991b]">Home</Link>
+                            <Link href="/about" className="hover:text-[#da991b]">About Us</Link>
+                            <Link href="/events" className="hover:text-[#da991b]">Events</Link>
+                            <Link href="/videos" className="hover:text-[#da991b]">Videos</Link>
+                            <Link href="/photos" className="hover:text-[#da991b]">Photos</Link>
                     </div>
 
                     {/* Contact Info */}
                     <div className="text-sm flex text-gray-600 gap-2 ml-6 pl-4">
-                        <a href="tel:+1234567890" className="flex items-center space-x-1 hover:text-[#da991b]">
-                            <FiPhone />
-                            <span>+1 234 567 890</span>
-                        </a>
-                        <a href="mailto:info@example.com" className="flex items-center space-x-1 hover:text-[#da991b]">
+
+                        <a href="mailto:khudrang.poet@gmail.com" className="flex items-center space-x-1 hover:text-[#da991b]">
                             <FiMail />
-                            <span>info@example.com</span>
+                            <span>khudrang.poet@gmail.com</span>
                         </a>
                     </div>
                     {/* Social Media */}
                     <div className="flex gap-4 text-gray-600">
-                        <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-400" aria-label="Instagram">
+                        <a href="https://www.instagram.com/khudrang_foundation/?hl=en" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-400" aria-label="Instagram">
                             <FaInstagram className="w-6 h-6" />
                         </a>
-                        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400" aria-label="Twitter">
-                            <FaTwitter className="w-6 h-6" />
-                        </a>
-                        <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-500" aria-label="Facebook">
+                        <a href="https://www.facebook.com/BazmeUrdughazal/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-500" aria-label="Facebook">
                             <FaFacebook className="w-6 h-6" />
                         </a>
                     </div>

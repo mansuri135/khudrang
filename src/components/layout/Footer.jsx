@@ -14,11 +14,11 @@ export default function Footer() {
 
                     {/* Navigation links */}
                     <div className="flex space-x-4 text-sm">
-                        <Link href="/" className="hover:text-[#da991b]">Home</Link>
-                        <Link href="/about" className="hover:text-[#da991b]">About Us</Link>
-                        <Link href="/events" className="hover:text-[#da991b]">Events</Link>
-                        <Link href="/videos" className="hover:text-[#da991b]">Videos</Link>
-                        <Link href="/contact" className="hover:text-[#da991b]">Contact Us</Link>
+                         <Link href="/" className="hover:text-[#da991b]">Home</Link>
+                            <Link href="/about" className="hover:text-[#da991b]">About Us</Link>
+                            <Link href="/events" className="hover:text-[#da991b]">Events</Link>
+                            <Link href="/videos" className="hover:text-[#da991b]">Videos</Link>
+                            <Link href="/photos" className="hover:text-[#da991b]">Photos</Link>
                     </div>
 
                     {/* Social icons */}
