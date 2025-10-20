@@ -20,6 +20,12 @@ const slides = [
     description: '',
     bgImage: '/images/banner02.jpg',
   },
+  {
+    id: 3,
+    title: '',
+    description: '',
+    bgImage: '/images/banner03.jpg',
+  },
   
 ];
 
